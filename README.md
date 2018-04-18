@@ -1,2 +1,4 @@
 # Adaptive_Sampling
 Adaptive MCMC and CMA-ES Python code
+
+Evaluating analytically intractable integrals is a limitation when implementing Bayesian inference. Adaptive Markov Chain Monte Carlo (MCMC) and stochastic optimization methods are techniques for evaluating said integrals. In this project, code for these algorithms has been written in Python and tested against known benchmarks. In addition to implementing the algorithms as found in their original papers, a potential improvement has been made by incorporating adaptation into stochastic optimization methods, thereby transforming them into samplers. Namely, Gaussian Adaptation (GaA) and Covariance Matrix Adaptation Evolution strategy(CMA-ES) optimizers have been transformed into the Metropolis-GaA, and (1 + 1) CMA, respectively. Performance is quantified using existing convergence and performance measuring tools. Results show adaptive MCMCs with better convergence, mixing, and acceptance ratios.

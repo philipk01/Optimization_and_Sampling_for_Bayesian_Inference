@@ -36,7 +36,7 @@ To run the **Adaptive Metropolis** sampler, type ``` AM ``` instead of the curre
 
 In this case, the code:
 ```
-SPEC = specify_run(dim=2, N=10000, name_target='Pi_4', name_sampler='AM', run_idx=0)
+SPEC = specify_run(dim=2, N=10000, name_target='Pi_4', name_sampler='CMA', run_idx=0)
 DATA = execute_run(SPEC)
 ```
 

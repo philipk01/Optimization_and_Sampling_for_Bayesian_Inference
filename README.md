@@ -32,7 +32,7 @@ offers an easy way to run any of the five samplers and plot their results.
 Open the Experiments module in a Jupyter notebook. You will also need the supporting and test modules imported, along with the required libraries as specified in ```Experiments.ipynb```.
 
 ### Example
-To run the **Adaptive Metropolis** sampler, type ``` AM ``` instead of the current sampler ```CMA_ES```. Sampler names are found in ```Experiments.ipynb``` under **The Samplers**.
+To run the **Adaptive Metropolis** sampler, type ``` AM ``` instead of the current sampler ```CMA```. Sampler names are found in ```Experiments.ipynb``` under **The Samplers**.
 
 In this case, the code:
 ```

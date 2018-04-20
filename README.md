@@ -36,7 +36,8 @@ To run the **Adaptive Metropolis** sampler, type ``` AM ``` instead of the curre
 
 In this case, the code:
 ```
-aRun = RunData(Context=CC, Sampler=CMA_ES_Sampler, TargetIdx=4, RunIdx=0)
+SPEC = specify_run(dim=2, N=10000, name_target='Pi_4', name_sampler='AM', run_idx=0)
+DATA = execute_run(SPEC)
 ```
 
 becomes:
@@ -44,13 +45,8 @@ becomes:
 aRun = RunData(Context=CC, Sampler=AM_Sampler, TargetIdx=4, RunIdx=0)
 ```
 
-Also, you might want to change the target distribution. To do so,  you need to change the experiment setup by initializing the context ‘CC’ under **Set up the current context**
-
-```
-CC = initialize_context(dim=40, N=180000)
-```
-
-and simply change the target distribution reference number **TargetIdx**. For reference details, see ```Adaptive_MCMC_for_Bayesian_Inference.pdf``` Chapter 6.
+Also, you might want to change the target distribution. To do so,  you need to change ``` name_target```
+For reference details, see ```Adaptive_MCMC_for_Bayesian_Inference.pdf``` Chapter 6.
 
 
 

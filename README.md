@@ -24,6 +24,11 @@ You will need Jupyter notebook with Python 3 and the modules listed below. For d
 * ```FileHandling.py```
 * ```Visualization.py```
 
+
+### Comparing samplers via autocorrelation
+![autocorrelation](https://user-images.githubusercontent.com/16397101/39100333-195ac932-463d-11e8-87a2-b5a0bc12e4e9.png)
+
+
 ## Running the tests
 The module
 ```Experiments.ipynb```

@@ -49,7 +49,8 @@ DATA = execute_run(SPEC)
 Also, you might want to change the target distribution. To do so, you need to change ``` name_target```
 For reference, see ```Adaptive_MCMC_for_Bayesian_Inference.pdf``` Chapter 6.
 
-
+#### Biased coin example
+![trials5](https://user-images.githubusercontent.com/16397101/39100228-bc3842bc-463b-11e8-84c7-393fccb19fd9.png)
 
 ## Built With
 * [Jupyter](http://jupyter.org/) - Jupyter Notebooks
